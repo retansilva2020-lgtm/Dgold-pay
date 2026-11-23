@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>DGOLD PAY | Seu futuro financeiro começa com novas possibilidades</title>
+<meta name="description" content="DGOLD PAY: uma nova experiência financeira, com tecnologia, praticidade e soluções pensadas para quem vive e trabalha no garimpo.">
+<meta name="theme-color" content="#640B0D">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="preload" href="assets/fonts/outfit-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<!-- Ícones (sprite) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></symbol>
+<symbol id="i-building" viewBox="0 0 24 24"><path d="M4 21V5l8-3 8 3v16M9 21v-5h6v5M8 9h2M14 9h2M8 13h2M14 13h2"/></symbol>
+<symbol id="i-card" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="M2 10h20M6 15h4"/></symbol>
+<symbol id="i-coin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.2c-.4-.9-1.3-1.4-2.5-1.4-1.5 0-2.5.7-2.5 1.8s1 1.5 2.5 1.8 2.5.7 2.5 1.8-1 1.8-2.5 1.8c-1.2 0-2.1-.5-2.5-1.4M12 6.5v1.3M12 15.9v1.6"/></symbol>
+<symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 20h18M6 16l4-5 3 3 5-7M15 7h3v3"/></symbol>
+<symbol id="i-brief" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 012-2h2a2 2 0 012 2v2M3 13h18"/></symbol>
+<symbol id="i-headset" viewBox="0 0 24 24"><path d="M4 14v-2a8 8 0 0116 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/><path d="M19 20c0 1.5-2 2-5 2"/></symbol>
+<symbol id="i-swap" viewBox="0 0 24 24"><path d="M7 4L3 8l4 4M3 8h14M17 20l4-4-4-4M21 16H7"/></symbol>
+<symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 3L5 13.5h6L10 21l8-10.5h-6z"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="i-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+<symbol id="i-left" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+<symbol id="i-right" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+<symbol id="i-pie" viewBox="0 0 24 24"><path d="M12 3v9h9"/><path d="M20.5 15A9 9 0 119 3.5"/></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 018 0v3"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></symbol>
+<symbol id="i-call" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></symbol>
+<symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18M5 21h14M5 7h14M5 7l-3 7a3 3 0 006 0zM19 7l-3 7a3 3 0 006 0z"/></symbol>
+<symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/></symbol>
+<symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5v.01"/></symbol>
+<symbol id="i-in" viewBox="0 0 24 24"><path d="M6 9v11M6 5v.01M11 20v-6a3 3 0 016 0v6M11 9v11"/></symbol>
+<symbol id="i-yt" viewBox="0 0 24 24"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10.5 9.5v5l4.5-2.5z"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20"/></symbol>
+<symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 00-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/></symbol>
+</defs></svg>
+
+<!-- ========== A. CABEÇALHO ========== -->
+<header class="header" id="header">
+  <div class="topstrip">
+    <div class="wrap">
+      <span class="demo-note">DGOLD PAY · Uma nova experiência financeira</span>
+      <nav aria-label="Acesso rápido">
+        <a href="#pessoa-fisica">Pessoa física</a>
+        <a href="#seguranca">Segurança</a>
+      </nav>
+    </div>
+  </div>
+  <div class="nav-row">
+    <div class="wrap">
+      <a href="#topo" class="logo" aria-label="DGOLD PAY — início"><img src="assets/img/logo-dgold-pay.png" alt="DGOLD PAY" width="991" height="530"></a>
+      <ul class="menu" id="menu">
+        <li>
+          <button aria-expanded="false" aria-haspopup="true">Para você <svg class="i"><use href="#i-chev"/></svg></button>
+          <div class="mega">
+            <div><h4>Conta e pagamentos</h4><a href="#pessoa-fisica" data-tab="0">Conta digital</a><a href="#pessoa-fisica" data-tab="2">Transferências e pagamentos</a><a href="#pessoa-fisica" data-tab="3">Pix</a></div>
+            <div><h4>Cartão e finanças</h4><a href="#cartoes">Cartão de débito</a><a href="#pessoa-fisica" data-tab="4">Organização financeira</a></div>
+            <a class="mega-feature" href="#sobre"><img src="https://images.pexels.com/photos/29152688/pexels-photo-29152688.jpeg?auto=compress&cs=tinysrgb&w=500" alt="" loading="lazy" width="500" height="333"><span>Feito para quem vive o garimpo na Amazônia</span></a>
+          </div>
+        </li>
+        <li><a href="#cartoes">Cartão de débito</a></li>
+        <li><a href="#seguranca">Segurança</a></li>
+        <li><a href="#sobre">Sobre a DGOLD PAY</a></li>
+        <li><a href="#atendimento">Ajuda</a></li>
+      </ul>
+      <div class="nav-cta">
+        <button class="burger" id="burger" aria-label="Abrir menu" aria-controls="drawer" aria-expanded="false"><svg class="i"><use href="#i-menu"/></svg></button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<aside class="drawer" id="drawer" aria-label="Menu" aria-hidden="true">
+  <div class="drawer__top">
+    <a href="#topo" class="logo"><img src="assets/img/logo-dgold-pay.png" alt="DGOLD PAY" width="991" height="530"></a>
+    <button class="burger" id="drawerClose" aria-label="Fechar menu"><svg class="i"><use href="#i-close"/></svg></button>
+  </div>
+  <nav>
+    <details><summary>Para você <svg class="i"><use href="#i-chev"/></svg></summary><div><a href="#pessoa-fisica" data-tab="0">Conta digital</a><a href="#pessoa-fisica" data-tab="2">Transferências e pagamentos</a><a href="#pessoa-fisica" data-tab="3">Pix</a><a href="#pessoa-fisica" data-tab="4">Organização financeira</a></div></details>
+    <a href="#cartoes">Cartão de débito</a>
+    <a href="#seguranca">Segurança</a>
+    <a href="#sobre">Sobre a DGOLD PAY</a>
+    <a href="#atendimento">Ajuda</a>
+  </nav>
+</aside>
+
+<main id="conteudo">
+<span id="topo"></span>
+<!-- ========== B. HERO ========== -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero__bg"></div>
+  <div class="hero__waves" aria-hidden="true" data-parallax="0.15">
+    <svg viewBox="0 0 1600 760" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="gw" x1="0" x2="1"><stop offset="0" stop-color="#BD9D47" stop-opacity="0"/><stop offset=".5" stop-color="#dcc88a" stop-opacity=".7"/><stop offset="1" stop-color="#BD9D47" stop-opacity=".2"/></linearGradient></defs>
+      <path d="M-50 140C300 20 600 300 900 100S1400 260 1650 110"/><path d="M-50 200C300 80 600 360 900 160S1400 320 1650 170"/><path d="M-50 260C300 140 600 420 900 220S1400 380 1650 230"/><path d="M-50 320C300 200 600 480 900 280S1400 440 1650 290"/><path d="M-50 380C300 260 600 540 900 340S1400 500 1650 350"/><path d="M-50 440C300 320 600 600 900 400S1400 560 1650 410"/><path d="M-50 500C300 380 600 660 900 460S1400 620 1650 470"/><path d="M-50 560C300 440 600 720 900 520S1400 680 1650 530"/>
+    </svg>
+  </div>
+  <div class="wrap">
+    <div class="hero__copy">
+      <span class="eyebrow light hero-in">Garimpo · Amazônia · Ouro</span>
+      <h1 class="h-xl hero-in" id="hero-title">Seu futuro financeiro começa com <span class="gold-text">novas possibilidades.</span></h1>
+      <p class="lead hero-in">Uma nova experiência financeira, com tecnologia, praticidade e soluções pensadas para quem vive e trabalha no garimpo.</p>
+      <div class="hero__ctas hero-in">
+        <a class="btn btn--ghost" href="#sobre">Conheça a DGOLD PAY <svg class="i"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn--gold" href="#pessoa-fisica">Conheça as soluções <svg class="i"><use href="#i-arrow"/></svg></a>
+      </div>
+      <p class="hero__note hero-in">As soluções apresentadas estão sujeitas a análise e disponibilidade. Condições divulgadas no lançamento.</p>
+    </div>
+    <div class="hero__art hero-in">
+      <span class="hero__ring" aria-hidden="true"></span><span class="hero__ring r2" aria-hidden="true"></span>
+      <div class="arch imgbox"><img src="assets/img/garimpeiro-hero.jpg" alt="Garimpeiro sorridente segurando uma pepita de ouro, com rio e floresta amazônica ao fundo" width="1448" height="1086" fetchpriority="high" style="object-position:59% 50%"></div>
+      <div class="hero__badge" data-parallax="-0.06"><span>Experiência digital</span><b>Pensada para você</b></div>
+      <div class="hero__phone" data-parallax="-0.1" aria-hidden="true"><i class="hp-notch"></i><small>Saldo disponível</small><b class="hp-bal"></b><div class="hp-acts"><span><svg class="i"><use href="#i-bolt"/></svg></span><span><svg class="i"><use href="#i-card"/></svg></span><span><svg class="i"><use href="#i-shield"/></svg></span><span><svg class="i"><use href="#i-pie"/></svg></span></div><em>Demonstração conceitual</em></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== C. ATALHOS ========== -->
+<section class="shortcuts" aria-label="Atalhos rápidos">
+  <div class="wrap">
+    <div class="shortcuts__panel reveal">
+      <a class="shortcut shortcut--hl" href="#pessoa-fisica" data-tab="0"><span class="ic"><svg class="i"><use href="#i-user"/></svg></span>Conta digital</a>
+      <a class="shortcut" href="#pessoa-fisica" data-tab="3"><span class="ic"><svg class="i"><use href="#i-bolt"/></svg></span>Pix</a>
+      <a class="shortcut" href="#cartoes"><span class="ic"><svg class="i"><use href="#i-card"/></svg></span>Cartão de débito</a>
+      <a class="shortcut" href="#pessoa-fisica" data-tab="4"><span class="ic"><svg class="i"><use href="#i-pie"/></svg></span>Organização financeira</a>
+      <a class="shortcut" href="#atendimento"><span class="ic"><svg class="i"><use href="#i-headset"/></svg></span>Atendimento</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== D. CAMPANHAS ========== -->
+<section class="section campaigns marble" id="campanhas" aria-labelledby="camp-title">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="eyebrow">Campanhas e oportunidades</span><h2 class="h-lg" id="camp-title">O ouro da Amazônia merece uma instituição à altura.</h2></div>
+    <div class="carousel reveal" id="carousel" role="region" aria-roledescription="carrossel" aria-label="Campanhas em destaque">
+      <div class="carousel__track">
+        <article class="slide active imgbox" aria-roledescription="slide" aria-label="1 de 3">
+          <img src="https://images.pexels.com/photos/12598625/pexels-photo-12598625.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Garimpeira lavando cascalho em uma calha de madeira" width="1800" height="1200" loading="lazy" style="object-position:50% 35%">
+          <div class="slide__body"><span class="tag">Garimpo</span><h3 class="h-lg">O valor do seu trabalho, reconhecido.</h3><p>Soluções financeiras pensadas para a rotina de quem vive do garimpo.</p><div><a class="btn btn--gold" href="#pessoa-fisica">Conheça as soluções <svg class="i"><use href="#i-arrow"/></svg></a></div></div>
+        </article>
+        <article class="slide imgbox" aria-roledescription="slide" aria-label="2 de 3">
+          <img src="https://images.pexels.com/photos/29759409/pexels-photo-29759409.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Vista aérea de um grande rio da Amazônia e a floresta" width="1800" height="1200" loading="lazy" style="object-position:50% 60%">
+          <div class="slide__body"><span class="tag">Amazônia</span><h3 class="h-lg">Raízes na Amazônia, olhar para o futuro.</h3><p>Uma instituição que respeita a região e a força de quem trabalha com o ouro.</p><div><a class="btn btn--gold" href="#sobre">Sobre a DGOLD PAY <svg class="i"><use href="#i-arrow"/></svg></a></div></div>
+        </article>
+        <article class="slide imgbox" aria-roledescription="slide" aria-label="3 de 3">
+          <img src="https://images.pexels.com/photos/17025853/pexels-photo-17025853.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Vista aérea de um rio da Amazônia com barco e floresta" width="1800" height="1200" loading="lazy" style="object-position:50% 55%">
+          <div class="slide__body"><span class="tag">Conta digital e Pix</span><h3 class="h-lg">Mais praticidade para a sua rotina.</h3><p>Conta digital e Pix pensados para simplificar a vida financeira de quem trabalha pesado.</p><div><a class="btn btn--gold" href="#pessoa-fisica" data-tab="0">Saiba mais <svg class="i"><use href="#i-arrow"/></svg></a></div></div>
+        </article>
+      </div>
+      <div class="carousel__ui">
+        <div class="dots" role="tablist" aria-label="Escolher campanha">
+          <button class="dot active" role="tab" aria-selected="true" aria-label="Campanha 1"><i></i><span>01</span></button>
+          <button class="dot" role="tab" aria-selected="false" aria-label="Campanha 2"><i></i><span>02</span></button>
+          <button class="dot" role="tab" aria-selected="false" aria-label="Campanha 3"><i></i><span>03</span></button>
+        </div>
+        <button class="car-btn" id="prev" aria-label="Campanha anterior"><svg class="i"><use href="#i-left"/></svg></button>
+        <button class="car-btn" id="next" aria-label="Próxima campanha"><svg class="i"><use href="#i-right"/></svg></button>
+      </div>
+    </div>
+
+    <div class="bento">
+      <a class="tile tile--a imgbox reveal" href="#pessoa-fisica" data-tab="4">
+        <img src="https://images.pexels.com/photos/18478575/pexels-photo-18478575.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Raios de sol atravessando a floresta amazônica" width="1400" height="933" loading="lazy">
+        <div class="tile__body"><span class="tag">Organização financeira</span><h3>Dinheiro bem cuidado rende mais tranquilidade.</h3><p>Recursos para enxergar o seu orçamento e planejar os próximos passos.</p></div>
+      </a>
+      <a class="tile tile--b imgbox reveal" style="--d:.1s" href="#sobre">
+        <img src="https://images.pexels.com/photos/31137171/pexels-photo-31137171.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Trabalhador do garimpo curvado sobre o leito do rio" width="900" height="1200" loading="lazy" style="object-position:50% 20%">
+        <div class="tile__body"><span class="tag">Ouro</span><h3>Feito para quem move o ouro brasileiro.</h3><p>Conheça a proposta da DGOLD PAY.</p></div>
+      </a>
+      <a class="tile tile--c imgbox reveal" style="--d:.15s" href="#pessoa-fisica" data-tab="2">
+        <img src="https://images.pexels.com/photos/23511040/pexels-photo-23511040.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Bateia com cascalho e água, usada na busca por ouro" width="1400" height="800" loading="lazy">
+        <div class="tile__body"><span class="tag">Transferências e pagamentos</span><h3>Mais praticidade para movimentar o seu dinheiro.</h3></div>
+      </a>
+      <div class="tile tile--gold tile--wide reveal">
+        <div class="tile__body"><h3>Conheça a proposta da DGOLD PAY.</h3><p>Uma instituição pensada para unir solidez e tecnologia a serviço do garimpo.</p></div>
+        <a class="btn btn--wine" href="#sobre">Conheça a DGOLD PAY <svg class="i"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== E. PESSOA FÍSICA ========== -->
+<section class="section pf marble" id="pessoa-fisica" aria-labelledby="pf-title">
+  <div class="wrap">
+    <div class="pf__art reveal-l">
+      <div class="arch imgbox" id="pfImgs">
+        <img class="on" src="https://images.pexels.com/photos/31137170/pexels-photo-31137170.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Conta digital: trabalhador do garimpo" width="900" height="1050" loading="lazy" style="object-position:50% 20%">
+        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=900&q=70" alt="Cartão de débito: compra online" width="900" height="1050" loading="lazy" style="object-position:35% 50%">
+        <img src="https://images.pexels.com/photos/23511040/pexels-photo-23511040.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Transferências e pagamentos: bateia com cascalho" width="900" height="1050" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=900&q=70" alt="Pix: celular em mãos" width="900" height="1050" loading="lazy">
+        <img src="https://images.pexels.com/photos/29152688/pexels-photo-29152688.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Organização financeira: vista aérea da floresta amazônica e de um rio com barco" width="900" height="1050" loading="lazy" style="object-position:50% 50%">
+      </div>
+      <div class="pf__float"><span class="ic"><svg class="i"><use href="#i-phone"/></svg></span><span>Sua vida financeira organizada em um só lugar.</span></div>
+    </div>
+    <div class="reveal-r">
+      <span class="eyebrow">Para você</span>
+      <h2 class="h-lg" id="pf-title" style="margin:16px 0 18px">Soluções pensadas para o dia a dia de quem trabalha no garimpo.</h2>
+      <p class="lead">Conheça o que a DGOLD PAY prepara para facilitar a sua rotina financeira.</p>
+      <div class="tabs" id="pfTabs" style="margin-top:30px">
+        <div class="tab active"><button class="tab__btn" aria-expanded="true"><span class="n">01</span>Conta digital<svg class="i"><use href="#i-right"/></svg></button><div class="tab__panel"><div><p>Uma conta pensada para a rotina de quem trabalha no garimpo, com acesso pelo celular e tudo organizado em um só lugar.</p><a class="link-arrow" href="#app">Ver a experiência digital <svg class="i"><use href="#i-arrow"/></svg></a></div></div></div>
+        <div class="tab"><button class="tab__btn" aria-expanded="false"><span class="n">02</span>Cartão de débito<svg class="i"><use href="#i-right"/></svg></button><div class="tab__panel"><div><p>O cartão de débito DGOLD PAY para as suas compras do dia a dia. Condições divulgadas no lançamento.</p><a class="link-arrow" href="#cartoes">Ver o cartão <svg class="i"><use href="#i-arrow"/></svg></a></div></div></div>
+        <div class="tab"><button class="tab__btn" aria-expanded="false"><span class="n">03</span>Transferências e pagamentos<svg class="i"><use href="#i-right"/></svg></button><div class="tab__panel"><div><p>Envie, receba e pague com praticidade, em uma experiência desenhada para ser simples de entender.</p><a class="link-arrow" href="#atendimento">Fale com a gente <svg class="i"><use href="#i-arrow"/></svg></a></div></div></div>
+        <div class="tab"><button class="tab__btn" aria-expanded="false"><span class="n">04</span>Pix<svg class="i"><use href="#i-right"/></svg></button><div class="tab__panel"><div><p>Pagamentos e transferências via Pix integrados à sua conta, conforme disponibilidade no lançamento.</p><a class="link-arrow" href="#atendimento">Fale com a gente <svg class="i"><use href="#i-arrow"/></svg></a></div></div></div>
+        <div class="tab"><button class="tab__btn" aria-expanded="false"><span class="n">05</span>Organização financeira<svg class="i"><use href="#i-right"/></svg></button><div class="tab__panel"><div><p>Recursos para enxergar para onde vai o seu dinheiro e planejar os próximos passos com tranquilidade.</p><a class="link-arrow" href="#app">Ver a experiência digital <svg class="i"><use href="#i-arrow"/></svg></a></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== G. CARTÃO DE DÉBITO ========== -->
+<section class="section cards-sec marble" id="cartoes" aria-labelledby="cc-title">
+  <div class="wrap">
+    <div class="reveal-l">
+      <span class="eyebrow">Cartão de débito</span>
+      <h2 class="h-lg" id="cc-title" style="margin:16px 0 18px">O cartão de débito DGOLD PAY.</h2>
+      <p class="lead">Acabamento em dourado fosco e a identidade da DGOLD PAY gravada no cartão, para acompanhar o seu dia a dia.</p>
+      <div style="margin-top:30px"><a class="btn btn--wine" href="#app">Ver a experiência digital <svg class="i"><use href="#i-arrow"/></svg></a></div>
+      <p class="cards-note"><svg class="i" style="margin-top:3px;color:var(--gold-600)"><use href="#i-info"/></svg><span><b>Ilustração do cartão DGOLD PAY.</b> Benefícios, limites e condições serão divulgados no lançamento.</span></p>
+    </div>
+    <div class="cards-stage reveal-r" id="ccStage"><div class="cc cc--matte cc--back" aria-hidden="true"><span class="cc__stripe"></span><span class="cc__sign">Ilustração conceitual</span></div><div class="cc cc--matte" tabindex="0"><div class="cc__top"><img class="cc__eng" src="assets/img/logo-dgold-pay.png" alt="" width="991" height="530"></div><div class="cc__chip"></div><div class="cc__bot"><span class="cc__dots">•••• ••••</span><span>Débito</span></div></div></div>
+  </div>
+</section>
+
+<!-- ========== H. EXPERIÊNCIA DIGITAL ========== -->
+<section class="section digital on-dark" id="app" aria-labelledby="app-title">
+  <div class="wrap">
+    <div class="phones reveal-l">
+      <div class="bgarch imgbox"><img src="https://images.pexels.com/photos/12598625/pexels-photo-12598625.jpeg?auto=compress&cs=tinysrgb&w=800" alt="" width="800" height="1000" loading="lazy" style="object-position:40% 40%"></div>
+      <div class="phone" id="phone1" role="img" aria-label="Tela conceitual do aplicativo DGOLD PAY (demonstração)">
+        <div class="screen">
+          <div class="hello"><div><small>Bem-vindo(a)</small><b>Olá!</b></div><span class="avatar"></span></div>
+          <div class="bal"><small>Saldo</small><div class="v"><i></i><i></i><i></i><i></i><i></i></div></div>
+          <div class="qa"><span><em><svg class="i"><use href="#i-bolt"/></svg></em>Pix</span><span><em><svg class="i"><use href="#i-swap"/></svg></em>Transferir</span><span><em><svg class="i"><use href="#i-card"/></svg></em>Cartões</span><span><em><svg class="i"><use href="#i-pie"/></svg></em>Metas</span></div>
+          <div class="skel"><p>Atividades</p><div></div><div></div><div></div></div>
+          <div class="demo-flag">Demonstração conceitual</div>
+        </div>
+      </div>
+      <div class="phone phone--2" aria-hidden="true">
+        <div class="screen">
+          <div class="hello"><div><b>Cartões</b></div><span class="avatar"></span></div>
+          <img class="mini-card" src="assets/img/cartao-dgold-pay.webp" alt="" width="694" height="1100" loading="lazy">
+          <div class="skel"><div></div></div>
+          <div class="demo-flag">Ilustrativo</div>
+        </div>
+      </div>
+    </div>
+    <div class="reveal-r">
+      <span class="eyebrow light">Experiência digital</span>
+      <h2 class="h-lg" id="app-title" style="margin:16px 0 18px">A sua vida financeira, <span class="gold-text">na palma da mão.</span></h2>
+      <p class="lead">Estamos desenhando uma experiência móvel clara, rápida e elegante para você gerenciar suas finanças pelo celular.</p>
+      <ul class="digital__list">
+        <li><span class="ic"><svg class="i"><use href="#i-phone"/></svg></span><div><b>Tudo em um só lugar</b><span>Reunir o essencial da sua rotina financeira em uma única experiência.</span></div></li>
+        <li><span class="ic"><svg class="i"><use href="#i-pie"/></svg></span><div><b>Clareza para decidir</b><span>Informações organizadas para você acompanhar com tranquilidade.</span></div></li>
+        <li><span class="ic"><svg class="i"><use href="#i-headset"/></svg></span><div><b>Ajuda por perto</b><span>Canais de atendimento pensados para estar próximos de você.</span></div></li>
+      </ul>
+      <span class="demo-pill"><svg class="i"><use href="#i-info"/></svg>Demonstração conceitual — interface ilustrativa, sem funcionalidades ativas.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ========== I. SEGURANÇA ========== -->
+<section class="section security" id="seguranca" aria-labelledby="sec-title">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="eyebrow">Segurança e confiança</span><h2 class="h-lg" id="sec-title">Confiança se constrói com cuidado, todos os dias.</h2></div>
+    <div class="sec-grid">
+      <div class="sec-photo imgbox reveal-l">
+        <img src="https://images.pexels.com/photos/37812265/pexels-photo-37812265.jpeg?auto=compress&cs=tinysrgb&w=1100" alt="Lago amazônico cercado por palmeiras e floresta" width="1100" height="1300" loading="lazy">
+        <blockquote>Solidez é um <b>compromisso</b>, não um detalhe. Cada decisão de produto começa pela confiança de quem usa.</blockquote>
+      </div>
+      <div class="sec-list reveal-r">
+        <div class="sec-item"><span class="big">01</span><h3>Proteção de dados</h3><p>Informações tratadas com responsabilidade, finalidade definida e acesso restrito.</p></div>
+        <div class="sec-item"><span class="big">02</span><h3>Segurança nas operações</h3><p>Cuidado desde o desenho de cada fluxo, para que cada operação seja clara e consciente.</p></div>
+        <div class="sec-item"><span class="big">03</span><h3>Privacidade</h3><p>Respeito às suas escolhas e transparência sobre como os dados são usados.</p></div>
+        <div class="sec-item"><span class="big">04</span><h3>Tecnologia</h3><p>Evolução contínua de plataforma, com foco em estabilidade e boas práticas.</p></div>
+        <div class="sec-item"><span class="big">05</span><h3>Atendimento</h3><p>Canais de ajuda para orientar você quando for preciso.</p></div>
+        <p class="legal-note"><svg class="i"><use href="#i-info"/></svg><span>Recursos, certificações e garantias de segurança serão informados de forma transparente conforme forem implementados e comprovados.</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== J. SOBRE ========== -->
+<section class="section about" id="sobre" aria-labelledby="about-title">
+  <div class="wrap">
+    <div class="about__art reveal-l">
+      <div class="m imgbox"><img src="https://images.pexels.com/photos/31137171/pexels-photo-31137171.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Trabalhador do garimpo no leito do rio" width="1000" height="1300" loading="lazy" style="object-position:50% 25%"></div>
+      <div class="s imgbox"><img src="https://images.pexels.com/photos/35497189/pexels-photo-35497189.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Pepita de ouro" width="600" height="900" loading="lazy" style="object-position:50% 40%"></div>
+    </div>
+    <div class="reveal-r">
+      <span class="eyebrow">Sobre a DGOLD PAY</span>
+      <h2 class="h-lg" id="about-title" style="margin:16px 0 18px">Uma instituição financeira feita para quem faz o ouro brasileiro.</h2>
+      <p class="lead">A DGOLD PAY nasce para atender garimpeiros e profissionais ligados à atividade do garimpo, unindo a solidez que se espera de um banco à agilidade e à clareza da tecnologia.</p>
+      <ul class="values">
+        <li><b>Transparência</b><span>Comunicação clara em cada passo.</span></li>
+        <li><b>Solidez</b><span>Compromisso com decisões responsáveis.</span></li>
+        <li><b>Inovação</b><span>Tecnologia a serviço da simplicidade.</span></li>
+        <li><b>Proximidade</b><span>Respeito à realidade de quem trabalha no garimpo e na Amazônia.</span></li>
+      </ul>
+      <div style="margin-top:34px"><a class="btn btn--outline-wine" href="#atendimento">Fale com a gente <svg class="i"><use href="#i-arrow"/></svg></a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== L. ATENDIMENTO ========== -->
+<section class="section support" id="atendimento" aria-labelledby="sup-title">
+  <div class="wrap support__grid">
+    <div class="reveal-l">
+      <span class="eyebrow">Atendimento</span>
+      <h2 class="h-lg" id="sup-title" style="margin:16px 0 18px">Estamos por perto para ajudar.</h2>
+      <p class="lead">Os canais de atendimento da DGOLD PAY serão divulgados oficialmente no lançamento.</p>
+      <div class="channels">
+        <div class="channel"><span class="soon">Em breve</span><span class="ic"><svg class="i"><use href="#i-call"/></svg></span><b>Central telefônica</b><span>Número divulgado no lançamento.</span></div>
+        <div class="channel"><span class="soon">Em breve</span><span class="ic"><svg class="i"><use href="#i-mail"/></svg></span><b>E-mail</b><span>Endereço divulgado no lançamento.</span></div>
+        <div class="channel"><span class="soon">Em breve</span><span class="ic"><svg class="i"><use href="#i-scale"/></svg></span><b>Ouvidoria</b><span>Canal para registrar manifestações.</span></div>
+      </div>
+    </div>
+    <div class="faq reveal-r">
+      <h3 class="h-md" style="margin-bottom:22px">Perguntas frequentes</h3>
+      <details open><summary>Quando a DGOLD PAY estará disponível? <span class="pm" aria-hidden="true"></span></summary><p class="ans">Esta é uma página de apresentação. Produtos, serviços e canais de contratação serão divulgados oficialmente no lançamento.</p></details>
+      <details><summary>O cartão de débito já está disponível? <span class="pm" aria-hidden="true"></span></summary><p class="ans">Ainda não. Benefícios, limites e condições serão informados oficialmente no lançamento. As imagens do site são ilustrações conceituais.</p></details>
+      <details><summary>O aplicativo já está disponível? <span class="pm" aria-hidden="true"></span></summary><p class="ans">Ainda não. As telas exibidas neste site são uma demonstração conceitual, sem funcionalidades ativas.</p></details>
+      <details><summary>Como meus dados são tratados? <span class="pm" aria-hidden="true"></span></summary><p class="ans">Consulte a <a href="privacidade.html" style="color:var(--gold-700);text-decoration:underline">Política de Privacidade e LGPD</a> para saber mais sobre o tratamento de dados pessoais.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA final -->
+<section class="cta-band" aria-label="Conheça a DGOLD PAY">
+  <div class="wrap">
+    <div><h2>Pronto para começar uma nova história financeira?</h2><p>Conheça a proposta da DGOLD PAY e acompanhe as novidades.</p></div>
+    <a class="btn btn--wine" href="#sobre">Conheça a DGOLD PAY <svg class="i"><use href="#i-arrow"/></svg></a>
+  </div>
+</section>
+</main>
+
+<!-- ========== M. RODAPÉ ========== -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="#topo" class="logo logo--lg"><img src="assets/img/logo-dgold-pay.png" alt="DGOLD PAY" width="991" height="530"></a>
+        <p>Uma nova experiência financeira, com tecnologia, praticidade e soluções para você e seus negócios.</p>
+        <div class="socials" aria-label="Redes sociais">
+          <a href="#" data-soon="Perfil oficial será divulgado em breve." aria-label="Instagram"><svg class="i"><use href="#i-ig"/></svg></a>
+          <a href="#" data-soon="Perfil oficial será divulgado em breve." aria-label="LinkedIn"><svg class="i"><use href="#i-in"/></svg></a>
+          <a href="#" data-soon="Canal oficial será divulgado em breve." aria-label="YouTube"><svg class="i"><use href="#i-yt"/></svg></a>
+          <a href="#" data-soon="Perfil oficial será divulgado em breve." aria-label="X"><svg class="i"><use href="#i-x"/></svg></a>
+          <a href="#" data-soon="Página oficial será divulgada em breve." aria-label="Facebook"><svg class="i"><use href="#i-fb"/></svg></a>
+        </div>
+      </div>
+      <div><h4>Institucional</h4><ul><li><a href="#sobre">Sobre a DGOLD PAY</a></li><li><a href="#campanhas">Campanhas</a></li></ul></div>
+      <div><h4>Para você</h4><ul><li><a href="#pessoa-fisica">Conta digital e Pix</a></li><li><a href="#cartoes">Cartão de débito</a></li><li><a href="#app">Experiência digital</a></li></ul></div>
+      <div><h4>Atendimento</h4><ul><li><a href="#atendimento">Canais de atendimento</a></li><li><a href="#atendimento">Perguntas frequentes</a></li></ul></div>
+      <div><h4>Segurança e legal</h4><ul><li><a href="#seguranca">Segurança</a></li><li><a href="privacidade.html">Privacidade e LGPD</a></li><li><a href="termos.html">Termos de uso</a></li></ul></div>
+    </div>
+    <div class="footer__legal">
+      <p>DGOLD PAY · Razão social: <span class="ph">[a informar]</span> · CNPJ: <span class="ph">[a informar]</span> · Endereço: <span class="ph">[a informar]</span></p>
+      <p>Informações regulatórias, autorizações e órgãos supervisores aplicáveis: <span class="ph">[a serem inseridos pelo jurídico/compliance]</span></p>
+      <p>As soluções apresentadas estão sujeitas a análise, aprovação e disponibilidade. Imagens e telas são ilustrativas e conceituais. Fotografias: Pexels e Unsplash.</p>
+      <div class="footer__bar"><span>© 2026 DGOLD PAY. Todos os direitos reservados.</span><a href="#topo">Voltar ao topo ↑</a></div>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<button class="to-top" id="toTop" aria-label="Voltar ao topo"><svg class="i"><use href="#i-arrow"/></svg></button>
+<script src="js/main.js" defer></script>
+</body>
+</html>

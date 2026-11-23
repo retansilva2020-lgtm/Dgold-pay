@@ -1,0 +1,11 @@
+DGOLD PAY — landing page de apresentação
+Abra index.html no navegador (precisa de internet: as demais fotos vêm do Pexels e do Unsplash).
+
+Arquivos próprios (já dentro do projeto, em assets/img/):
+- logo-dgold-pay.png   logo oficial com fundo transparente (cabeçalho, menu mobile, rodapé, páginas internas)
+- favicon.png          ícone da aba (sol da logo)
+- garimpeiro-hero.jpg  foto do banner principal
+- cartao-dgold-pay.webp  foto real do cartão, endireitada e recortada (banner, seção do cartão, tela do app)
+
+Fotos externas: todas as demais <img> apontam para URLs externas. Para produção, baixe-as e hospede em assets/img/.
+Cores: variáveis --wine-* (bordô #640B0D) e --gold-* (dourado #BD9D47) no início de css/style.css.
